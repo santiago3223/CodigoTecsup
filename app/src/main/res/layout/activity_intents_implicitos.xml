@@ -56,5 +56,20 @@
             android:layout_height="wrap_content"
             android:onClick="crearEvento"
             android:text="Crear Evento" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="dispatchTakePictureIntent"
+            android:text="Abrir Camara" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="enviarMail"
+            android:text="Enviar MAil"
+            android:visibility="visible" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
