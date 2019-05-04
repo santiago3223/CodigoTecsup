@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CodigoTecsup</string>
+    <string name="title_activity_recycler_view_demo">RecyclerViewDemo</string>
 </resources>

@@ -20,16 +20,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GridViewDemo">
+        <activity android:name=".CardViewDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewDemo">
+        <activity
+            android:name=".RecyclerViewDemo"
+            android:label="@string/title_activity_recycler_view_demo"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".IntentsImplicitos"></activity>
+        <activity android:name=".GridViewDemo"></activity>
+        <activity android:name=".ListViewDemo" />
+        <activity android:name=".IntentsImplicitos" />
         <activity android:name=".IntentExplicitoSegundo" />
         <activity android:name=".IntentExplicito" />
         <activity android:name=".MainActivity" />
