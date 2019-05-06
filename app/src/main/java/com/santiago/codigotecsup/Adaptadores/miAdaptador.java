@@ -1,4 +1,4 @@
-package com.santiago.codigotecsup;
+package com.santiago.codigotecsup.Adaptadores;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.santiago.codigotecsup.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.santiago.codigotecsup;
+package com.santiago.codigotecsup.Adaptadores;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.santiago.codigotecsup.R;
 
 import java.util.LinkedList;
 

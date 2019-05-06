@@ -14,25 +14,29 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".Realm.MiApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CardViewDemo">
+        <activity android:name=".Realm.ActivityEntrada"></activity>
+        <activity android:name=".Realm.DemoRealm">
+        </activity>
+        <activity android:name=".SQLite.DemoSQLite">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CardViewDemo" />
         <activity
             android:name=".RecyclerViewDemo"
             android:label="@string/title_activity_recycler_view_demo"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".GridViewDemo"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GridViewDemo" />
         <activity android:name=".ListViewDemo" />
         <activity android:name=".IntentsImplicitos" />
         <activity android:name=".IntentExplicitoSegundo" />

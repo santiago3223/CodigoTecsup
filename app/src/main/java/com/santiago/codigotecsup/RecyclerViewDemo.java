@@ -2,12 +2,13 @@ package com.santiago.codigotecsup;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import com.santiago.codigotecsup.Adaptadores.WordListAdapter;
 
 import java.util.LinkedList;
 
@@ -31,6 +32,8 @@ public class RecyclerViewDemo extends AppCompatActivity {
                 int wordListSize = mWordList.size();
                 mWordList.addLast("+ Word " + wordListSize);
                 mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
+
+
                 mRecyclerView.smoothScrollToPosition(wordListSize);
             }
         });
