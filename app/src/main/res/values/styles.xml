@@ -22,4 +22,8 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+    </style>
+
 </resources>
